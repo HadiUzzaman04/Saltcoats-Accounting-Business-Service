@@ -2,268 +2,218 @@
 @section('content')
 
 <div class="main-banner" id="top">
-        <video autoplay muted loop id="bg-video">
-            <source src="assets/images/video.mp4" type="video/mp4" />
-        </video>
+    <!-- <video autoplay muted loop id="bg-video">
+        <source src="assets/images/video.mp4" type="video/mp4" />
+    </video> -->
 
-        <div class="video-overlay header-text">
-            <div class="caption">
-                <h3>Contact us, today, for expert tax and accountancy advice and services</h3>
-                <div class="main-button">
-                    <a href="book-table.html">Contact Us</a>
+    <img src="{{url('website/images/mainbanner.jpg')}}" style="width: 100%; object-fit:cover; height:100%;" />
+
+    <div class="video-overlay header-text">
+        <div class="caption">
+            <h2>Contact us</h2>
+            <div class="main-button">
+                <a href="{{route('contactus')}}">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="section" id="trainers">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="section-heading">
+                    <h2>Our <em>Services</em></h2>
+                    <img src="assets/images/line-dec.png" alt="">
+                    <p>Our experts at Buchprufer Consultants have been rendering auditing and accounting services to clients across the globe for years. With a systematic and well-defined approach, coupled with expert knowledge in the field, they ensure to offer quality and timely service delivery to the clients.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/Accounting-BP.png')}}" alt="">
+                    </div>
+                    <div class="down-content">
+                        <h4>Accounting Service</h4>
+                        <p>Buchprufer Consultants is a seasoned firm that specializes in accounting, bookkeeping and advisory services including HR & payroll management, taxation and virtual CFO services...</p>
+                        <ul class="main-button text-center">
+                            <li><a href="{{route('accounting')}}">View More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/Taxation.png')}}" alt="">
+                    </div>
+                    <div class="down-content">
+                        <h4>Taxation</h4>
+                        <p>During the pandemic, the government made many substantial initiatives to convince the expatriates, who constitute the majority of the country.s population, to continue in the nation for the long term...</p>
+                        <ul class="main-button text-center">
+                            <li><a href="{{route('corporatetax')}}">View More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/Audit-service.png')}}" alt="">
+                    </div>
+                    <div class="down-content">
+                        <h4>Audit Service</h4>
+                        <p>The audit service Canada is evolving more quickly due to factors including changing and stricter legislation, technological innovations, competitors, and the desire to increase confidence in financial...</p>
+                        <ul class="main-button text-center">
+                            <li><a href="{{route('audit')}}">View More</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- ***** Main Banner Area End ***** -->
+</section>
 
-   <!-- ***** Cars Starts ***** -->
-    <section class="section" id="trainers">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
-                        <h2>Our <em>Events</em></h2>
-                        <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
-                    </div>
+<section class="section section-bg" id="schedule" style="background-image: url(assets/images/about-fullscreen-1-1920x700.jpg)">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="section-heading dark-bg">
+                    <h2>Read <em>About Us</em></h2>
+                    <img src="{{asset('website/images/line-dec.png')}}" alt="">
+                    <p>Get to know more about our company</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/other-1-720x480.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>
-                                <sup>$</sup>1500.00 - <sup>$</sup>3500.00
-                            </span>
-
-                            <h4>Weddings</h4>
-
-                            <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
-
-                            <ul class="social-icons">
-                                <li><a href="book-table.html">+ Book a table</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/other-2-720x480.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>
-                                <sup>$</sup>1500.00 - <sup>$</sup>3500.00
-                            </span>
-
-                            <h4>Birthdays</h4>
-
-                            <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
-
-                            <ul class="social-icons">
-                                <li><a href="book-table.html">+ Book a table</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/other-3-720x480.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>
-                                <sup>$</sup>1500.00 - <sup>$</sup>3500.00
-                            </span>
-
-                            <h4>Anniversaries</h4>
-
-                            <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
-
-                            <ul class="social-icons">
-                                <li><a href="book-table.html">+ Book a table</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <br>
-
-            <div class="main-button text-center">
-                <a href="menu.html">View our Menu</a>
             </div>
         </div>
-    </section>
-    <!-- ***** Cars Ends ***** -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="cta-content text-center">
+                    <p>Buchprufer, established in the year 2007, is one of the leading accounts & audit offshore firms in India. We have been providing offshore services to numerous leading companies for more than a decade. Our team comprises of around 100 well-qualified experts who ensure top-notch, highly professional services in accounting, auditing, payroll, taxation, IT and HR solutions.</p>
 
-    <section class="section section-bg" id="schedule" style="background-image: url(assets/images/about-fullscreen-1-1920x700.jpg)">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading dark-bg">
-                        <h2>Read <em>About Us</em></h2>
-                        <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                    <p>Our main office is located at UL Cyber Park, Calicut, India. Our client network spreads across the globe building everlasting relationships based on trust and satisfaction. With our customized outsourcing solutions, Buchprufer has been at the forefront by serving leading companies with our technical expertise and advanced IT solutions. Specialized in auditing, accounting/ bookkeeping, payroll and taxation services, we cater to all your business requirements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="trainers">
+    <div class="container">
+        <h4>Why Choose us?</h4>
+        <p>By using Buchprufer as your full-service audit outsourcing provider, you will garner the following benefits:</p>
+        <br>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img src="{{asset('website/images/photo18.png')}}" alt="">
+                    </div>
+                    <div class="down-content">
+                        <h4>Budget-friendly</h4>
+                        <p>Very competitive rates, allowing for more flexibility of costs and budgets for your company.</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="cta-content text-center">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore deleniti voluptas enim! Provident consectetur id earum ducimus facilis, aspernatur hic, alias, harum rerum velit voluptas, voluptate enim! Eos, sunt, quidem.</p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nulla quo cum officia laboriosam. Amet tempore, aliquid quia eius commodi, doloremque omnis delectus laudantium dolor reiciendis non nulla! Doloremque maxime quo eum in culpa mollitia similique eius doloribus voluptatem facilis! Voluptatibus, eligendi, illum. Distinctio, non!</p>
+            <div class="col-lg-4">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img src="{{asset('website/images/photo19.png')}}" alt="">
+                    </div>
+                    <div class="down-content">
+                        <h4>Regular communication</h4>
+                        <p>Dedicated team of experts will be at your service offering regular and continuous communication with your team.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img src="{{asset('website/images/photo20.png')}}" alt="">
+                    </div>
+                    <div class="down-content">
+                        <h4>Timely service</h4>
+                        <p>With a team of professionally qualified and extensively experienced personnel, we ensure to offer quality & timely services.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- ***** Blog Start ***** -->
-    <section class="section" id="our-classes">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
-                        <h2>Read our <em>Blog</em></h2>
-                        <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+<section class="section section-bg" id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="cta-content">
+                    <h2>Send us a <em>message</em></h2>
+                    <p>Do you have questions about how Our Company can help your company? Send us an email and we'll get in touch shortly.</p>
+                    <div class="main-button">
+                        <a href="{{route('contactus')}}">Contact us</a>
                     </div>
                 </div>
             </div>
-            <div class="row" id="tabs">
-              <div class="col-lg-4">
-                <ul>
-                  <li><a href='#tabs-1'>Lorem ipsum dolor sit amet, consectetur adipisicing.</a></li>
-                  <li><a href='#tabs-2'>Aspernatur excepturi magni, placeat rerum nobis magnam libero! Soluta.</a></li>
-                  <li><a href='#tabs-3'>Sunt hic recusandae vitae explicabo quidem laudantium corrupti non adipisci nihil.</a></li>
-                  <div class="main-rounded-button"><a href="blog.html">Read More</a></div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="section-heading">
+                    <h2>Read our <em>Testimonials</em></h2>
+                    <img src="{{asset('website/images/line-dec.png')}}" alt="waves">
+                    <p>Here is the testimonials of our clients</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <ul class="features-items">
+                    <li class="feature-item">
+                        <div class="left-icon">
+                            <img src="{{asset('website/images/features-first-icon.png')}}" alt="First One">
+                        </div>
+                        <div class="right-content">
+                            <h4>Ray Morti</h4>
+                            <p><em>"We have been very happy and satisfied with his highly professional service in preparing our monthly accounts."</em></p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="left-icon">
+                            <img src="{{asset('website/images/features-first-icon.png')}}" alt="second one">
+                        </div>
+                        <div class="right-content">
+                            <h4>Justine Burke</h4>
+                            <p><em>"Depth of knowledge with both accounting and business operation has proven invaluable for my business."</em></p>
+                        </div>
+                    </li>
                 </ul>
-              </div>
-              <div class="col-lg-8">
-                <section class='tabs-content'>
-                  <article id='tabs-1'>
-                    <img src="assets/images/blog-image-1-940x460.jpg" alt="">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
-
-                    <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
-
-                    <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
-                    <div class="main-button">
-                        <a href="blog-details.html">Continue Reading</a>
-                    </div>
-                  </article>
-                  <article id='tabs-2'>
-                    <img src="assets/images/blog-image-2-940x460.jpg" alt="">
-                    <h4>Aspernatur excepturi magni, placeat rerum nobis magnam libero! Soluta.</h4>
-                    <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
-                    <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    <div class="main-button">
-                        <a href="blog-details.html">Continue Reading</a>
-                    </div>
-                  </article>
-                  <article id='tabs-3'>
-                    <img src="assets/images/blog-image-3-940x460.jpg" alt="">
-                    <h4>Sunt hic recusandae vitae explicabo quidem laudantium corrupti non adipisci nihil.</h4>
-                    <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
-                    <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
-                    <div class="main-button">
-                        <a href="blog-details.html">Continue Reading</a>
-                    </div>
-                  </article>
-                </section>
-              </div>
             </div>
-        </div>
-    </section>
-    <!-- ***** Blog End ***** -->
-
-    <!-- ***** Call to Action Start ***** -->
-    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="cta-content">
-                        <h2>Send us a <em>message</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
-                        <div class="main-button">
-                            <a href="contact.html">Contact us</a>
+            <div class="col-lg-6">
+                <ul class="features-items">
+                    <li class="feature-item">
+                        <div class="left-icon">
+                            <img src="{{asset('website/images/features-first-icon.png')}}" alt="fourth muscle">
                         </div>
-                    </div>
-                </div>
+                        <div class="right-content">
+                            <h4>Damian Brown</h4>
+                            <p><em>"Where their services have really hit the mark is with the level of financial insight that we now have into the business."</em></p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="left-icon">
+                            <img src="{{asset('website/images/features-first-icon.png')}}" alt="training fifth">
+                        </div>
+                        <div class="right-content">
+                            <h4>Jed Carey</h4>
+                            <p><em>"We needed someone with a high level of skill,  accuracy and dependability and Darcy bookkeeping really delivered."</em></p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
-    <!-- ***** Call to Action End ***** -->
-
-    <!-- ***** Testimonials Item Start ***** -->
-    <section class="section" id="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
-                        <h2>Read our <em>Testimonials</em></h2>
-                        <img src="assets/images/line-dec.png" alt="waves">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem incidunt alias minima tenetur nemo necessitatibus?</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="features-items">
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/features-first-icon.png" alt="First One">
-                            </div>
-                            <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
-                            </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/features-first-icon.png" alt="second one">
-                            </div>
-                            <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="features-items">
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/features-first-icon.png" alt="fourth muscle">
-                            </div>
-                            <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
-                            </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/features-first-icon.png" alt="training fifth">
-                            </div>
-                            <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <br>
-
-            <div class="main-button text-center">
-                <a href="testimonials.html">Read More</a>
-            </div>
-        </div>
-    </section>
+    </div>
+</section>
 
 @endsection

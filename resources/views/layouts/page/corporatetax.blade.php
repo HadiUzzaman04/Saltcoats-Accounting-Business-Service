@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url({{asset('website/images/CORPORATE-TAX-INTRODUCED-IN-UAE-BP.jpg')}})">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -21,7 +21,6 @@
             <div class="col-lg-12">
                 <section class='tabs-content'>
                     <article id='tabs-1'>
-                        <img src="{{asset('website/images/about-image-1-940x460.jpg')}}" alt="">
                         <h4>Scope of Application</h4>
 
                         <p>All UAE companies and commercial activities conducted by legal organisations or people throughout the seven emirates will be subject to the corporate tax. Natural resource exploitation will continue to be exempted as it is subject to an emirate-level corporate tax.</p>

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url({{asset('website/images/aboutus.jpg')}})">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -43,18 +43,18 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-1-720x480.jpg" alt="">
+                        <img src="{{asset('website/images/photo18.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Budget-friendly</h4>
-                        <p>Very competitive rates, allowing for more flexibility of costs and budgets.</p>
+                        <p>Very competitive rates, allowing for more flexibility of costs and budgets for your company.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-2-720x480.jpg" alt="">
+                        <img src="{{asset('website/images/photo19.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Regular communication</h4>
@@ -65,7 +65,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-3-720x480.jpg" alt="">
+                        <img src="{{asset('website/images/photo20.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Timely service</h4>

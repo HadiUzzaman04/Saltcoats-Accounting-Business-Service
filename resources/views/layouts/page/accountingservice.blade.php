@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url({{asset('website/images/Accounting-Black.jpg')}})">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -21,7 +21,6 @@
             <div class="col-lg-12">
                 <section class='tabs-content'>
                     <article id='tabs-1'>
-                        <img src="{{asset('website/images/about-image-1-940x460.jpg')}}" alt="">
                         <h4>Accounting Services in Canada</h4>
 
                         <p>Buchprufer Consultants is a seasoned firm that specializes in accounting, bookkeeping and advisory services including HR & payroll management, taxation and virtual CFO services. Accounting services in Dubai, UAE and bookkeeping operations need particular attention due to VAT regulations and heavy penalties imposed on defaults. With the use of advanced technology, we are the foremost leader in providing the trusted accounts outsourcing services for accounting firms and SMEs in Dubai, UAE.</p>
@@ -33,7 +32,6 @@
         </div>
     </div>
 </section>
-<!-- ***** Our Classes End ***** -->
 
 <section class="section" id="trainers">
     <div class="container">
@@ -41,7 +39,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-1-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo1.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Bookkeeping Outsourcing Services in UAE</h4>
@@ -52,7 +50,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-2-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo2.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Budgeting & Forecasting in UAE</h4>
@@ -63,7 +61,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-3-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo3.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Taxation Services in UAE</h4>
@@ -75,7 +73,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-4-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo4.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Online & Cloud Accounting Services in UAE</h4>
@@ -86,7 +84,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-5-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo5.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Reconciliations services in UAE</h4>
@@ -97,7 +95,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-6-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo6.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Accounts Payables & Receivables Services in UAE</h4>
@@ -108,7 +106,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-6-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo7.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Data Entry Services in UAE</h4>
@@ -119,7 +117,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-6-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo8.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Management Reporting Services in UAE</h4>
@@ -130,7 +128,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-6-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo9.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Virtual CFO Services in UAE</h4>

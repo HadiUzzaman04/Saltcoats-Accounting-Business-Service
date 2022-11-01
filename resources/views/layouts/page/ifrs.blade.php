@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url({{asset('website/images/Audit-Outsourcing-2-Black.jpg')}})">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -21,7 +21,6 @@
             <div class="col-lg-12">
                 <section class='tabs-content'>
                     <article id='tabs-1'>
-                        <img src="{{asset('website/images/about-image-1-940x460.jpg')}}" alt="">
                         <h4>IFRS Advisory Services</h4>
                         <p>International Financial Reporting Standards (IFRS) Advisory services play an essential role in global financial reporting as it brings transparency and comparability of financial information across the globe by ensuring a quality presentation.</p>
                         <p>The standards are being revised frequently to adopt business and economic changes to present valuable and relevant information to users, thereby bringing fundamental changes to accounting processes for financial statement preparers.</p>
@@ -54,43 +53,43 @@
         <h4>Buchprufer Audit solutions</h4>
         <br>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-3">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-1-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo14.png')}}" alt="">
                     </div>
                     <div class="down-content">
-                        <h4>Analyze the requirement and assess the impact</h4>
+                        <p>Analyze the requirement and assess the impact</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-3">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-2-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo17.png')}}" alt="">
                     </div>
                     <div class="down-content">
-                        <h4>Understand the difference between the IFRS and local standards. Modify the policies and system accordingly</h4>
+                        <p>Preparing a reconciliation</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-3">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-3-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo15.png')}}" alt="">
                     </div>
                     <div class="down-content">
-                        <h4>Adopts new accounting policies and procedures and then prepares financial statements based on IFRS</h4>
+                        <p>Understand the difference between the IFRS and local standards. Modify the policies and system accordingly</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-3">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-4-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo16.png')}}" alt="">
                     </div>
                     <div class="down-content">
-                        <h4>Preparing a reconciliation</h4>
+                        <p>Adopts new accounting policies and procedures and then prepares financial statements based on IFRS</p>
                     </div>
                 </div>
             </div>

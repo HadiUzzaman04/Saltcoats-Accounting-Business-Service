@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url({{asset('website/images/Audit-Outsourcing-2-Black.jpg')}})">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -21,7 +21,6 @@
             <div class="col-lg-12">
                 <section class='tabs-content'>
                     <article id='tabs-1'>
-                        <img src="{{asset('website/images/about-image-1-940x460.jpg')}}" alt="">
                         <h4>Service Charge Budget Review by RERA</h4>
                         <p>In Dubai, every owners association governed by the Real Estate Regulatory Authority (RERA) is required to perform a service charge budget review. RERA was created to help the real estate sector become more transparent.</p>
                         <p>In accordance with RERA requirements for audit companies in the UAE, our squad of professionals at BUCHPRUFER CONSULTANTS supports service charge budget review assignments. We can communicate directly with the association managers on your behalf, verify the documents, and create budget review reports for your final review, saving you time and money. The following are the main activities that we perform for our clientele.</p>

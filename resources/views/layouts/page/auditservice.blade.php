@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url({{asset('website/images/Audit-Outsourcing-2-Black.jpg')}})">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -21,7 +21,6 @@
             <div class="col-lg-12">
                 <section class='tabs-content'>
                     <article id='tabs-1'>
-                        <img src="{{asset('website/images/about-image-1-940x460.jpg')}}" alt="">
                         <h4>Audit Services in Canada</h4>
                         <p>The audit service Canada is evolving more quickly due to factors including changing and stricter legislation, technological innovations, competitors, and the desire to increase confidence in financial marketplaces. Industry leaders are building innovative business solutions and technology to deal with the present challenges while also anticipating the next market transformation.</p>
                     </article>
@@ -61,7 +60,7 @@
             <div class="col-lg-6">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-1-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo11.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>External Audit</h4>
@@ -72,7 +71,7 @@
             <div class="col-lg-6">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-2-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo10.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Risk Management</h4>
@@ -83,7 +82,7 @@
             <div class="col-lg-6">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-3-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo12.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>Data Analytics</h4>
@@ -94,7 +93,7 @@
             <div class="col-lg-6">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="assets/images/product-4-720x480.jpg" alt="">
+                        <img style="width: 250px; height: 150px" src="{{asset('website/images/photo13.png')}}" alt="">
                     </div>
                     <div class="down-content">
                         <h4>US GAAP</h4>

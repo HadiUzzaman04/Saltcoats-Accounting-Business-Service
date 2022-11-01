@@ -674,7 +674,7 @@ Our Classes
 */
 
 #our-classes {
-  margin-bottom: 140px;
+  margin-bottom: 20px;
 }
 
 #tabs ul {
@@ -894,7 +894,7 @@ trainers
 */
 
 #trainers { 
-  padding-bottom: 90px; 
+  padding-bottom: 10px; 
 }
 
 #trainers .trainer-item {
@@ -965,7 +965,7 @@ contact
 }
 
 #contact-us .contact-form {
-  padding: 80px;
+  padding: 156px;
   background-image: url(../images/contact-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -1004,6 +1004,7 @@ contact
 .contact-form ::-webkit-input-placeholder { /* Edge */
   color: #7a7a7a;
 }
+
 
 .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: #7a7a7a;
@@ -1470,3 +1471,13 @@ a:hover {
       margin: 0 auto;
     }
   }
+
+  @media(min-width: 320px) and (max-width:425px){
+    .header-area{
+      display: flex;
+    }
+  }
+
+  /* .banner{
+    background-image: url('{{ asset('website/images/mainbanner.jpg') }}')
+  } */

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url({{asset('website/images/Audit-Outsourcing-2-Black.jpg')}})">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -21,7 +21,6 @@
             <div class="col-lg-12">
                 <section class='tabs-content'>
                     <article id='tabs-1'>
-                        <img src="{{asset('website/images/about-image-1-940x460.jpg')}}" alt="">
                         <h4>Home Owners Association Audit</h4>
                         <p>Property ownership offers several advantages, but it is essential to properly manage and maintain your investment in order to get the most out of it. And it is here that the Home Owners Association (HOA) audit comes into effect. The Home Owner Association is a non-profit organization that manages the common areas of co-owned residences. According to Dubai law, every freehold property must have an owner’s association, which must include all of the property’s unit owners.</p>
                         <p>At BUCHPRUFER CONSULTANTS, our team of specialists with over a decade of expertise offers HOA audit outsourcing services in a streamlined manner. Let’s take a look at the list of activities performed by the company to meet the business requirements of our clients.</p>
