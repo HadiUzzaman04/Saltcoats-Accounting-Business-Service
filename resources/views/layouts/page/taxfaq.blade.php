@@ -16,6 +16,8 @@
 </section>
 <br>
 <div id="accordion">
+    <h4>Here are the fequently asked question about Tax</h4>
+    <br>
     <div class="card">
         <div class="card-header" id="1">
             <h5 class="mb-0">
@@ -78,7 +80,7 @@
         </div>
         <div id="collapsefour" class="collapse" aria-labelledby="4" data-parent="#accordion">
             <div class="card-body">
-                A business should mandatorily register for VAT within 30 days if the turnover of the company exceeds AED 375,000. Business should note that turnover includes local sales, exports, imports of goods and service. So even if you do not have any sales but is paying for services procured from outside UAE, it should apply for registration.A business can choose to register for VAT under a voluntary registration scheme if turnover exceed AED 187,500 </div>
+                A business should mandatorily register for VAT within 30 days if the turnover of the company exceeds AED 375,000. Business should note that turnover includes local sales, exports, imports of goods and service. So even if you do not have any sales but is paying for services procured from outside Canada, it should apply for registration.A business can choose to register for VAT under a voluntary registration scheme if turnover exceed AED 187,500 </div>
         </div>
     </div>
     <div class="card">
@@ -169,7 +171,7 @@
                 </div>
                 <div id="collapseten" class="collapse" aria-labelledby="10" data-parent="#accordion">
                     <div class="card-body">
-                        Non-residents that make taxable supplies in the UAE will be required to register for VAT unless there is any other business in UAE responsible for accounting for VAT on these supplies. If you are selling goods/services to a non-registered business in UAE then you should apply for registration within 30 days of taxable supply. The threshold limit of AED 375,000 does not apply to a non-resident.
+                        Non-residents that make taxable supplies in Canada will be required to register for VAT unless there is any other business in Canada responsible for accounting for VAT on these supplies. If you are selling goods/services to a non-registered business in UAE then you should apply for registration within 30 days of taxable supply. The threshold limit of AED 375,000 does not apply to a non-resident.
                     </div>
                 </div>
             </div>
@@ -206,7 +208,7 @@
                         <ul>
                             <li>Request for tax invoice when you make the purchase</li>
                             <br>
-                            <li>Approach Planet payment self service kiosk at Dubai international airport</li>
+                            <li>Approach Planet payment self service kiosk at Canada international airport</li>
                             <br>
                             <li>Submit the tax invoice and your passport</li>
                         </ul>
@@ -218,43 +220,49 @@
 
         <!-- ***** Contact Us Area Starts ***** -->
         <section class="section" id="contact-us" style="margin-top: 0">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="contact-form section-bg">
-                            <form id="contact" action="" method="post">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input name="name" type="text" id="name" placeholder="Your Name*" required="">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-12 col-sm-12">
-                                        <fieldset>
-                                            <input name="subject" type="text" id="subject" placeholder="Subject">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <button type="submit" id="form-submit" class="main-button">Send Message</button>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </form>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="contact-form section-bg">
+                    <form id="contact" action="{{route('contactus.store')}}" method="post">
+                        @csrf
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                    <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                    <input name="subject" type="text" id="subject" placeholder="Subject">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                    <input name="phone" type="text" id="phone" placeholder="Phone">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="main-button">Send Message</button>
+                                </fieldset>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
         @endsection

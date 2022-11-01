@@ -16,6 +16,8 @@
 </section>
 <br>
 <div id="accordion">
+<h4>Here are the fequently asked question about Accounting Service</h4>
+<br>
     <div class="card">
         <div class="card-header" id="1">
             <h5 class="mb-0">
@@ -26,7 +28,7 @@
         </div>
         <div id="collapseone" class="collapse" aria-labelledby="1" data-parent="#accordion">
             <div class="card-body">
-                Buchprufer has a highly professional team of qualified staff (CA/ ACCA/ CMA) to handle your books of accounts. We can handle the data entry, review and tax compliance of your books of accounts. Depending on the size of your organisation, in order to get a varied skill set (e.g. accounting, review, tax knowledge, etc.) you might have to employ many in-house resources. Outsourcing can get your job done at a much lower cost.
+            Saltcoats accounting & business service has a highly professional team of qualified staff (CA/ ACCA/ CMA) to handle your books of accounts. We can handle the data entry, review and tax compliance of your books of accounts. Depending on the size of your organisation, in order to get a varied skill set (e.g. accounting, review, tax knowledge, etc.) you might have to employ many in-house resources. Outsourcing can get your job done at a much lower cost.
             </div>
         </div>
     </div>
@@ -41,7 +43,7 @@
         <div id="collapsethree" class="collapse" aria-labelledby="3" data-parent="#accordion">
             <div class="card-body">
                 <ul>
-                    <li>Reduce costs – Buchprufer offers accounting services at affordable rates which will lower your staff cost considerably, thereby, increasing profits.</li>
+                    <li>Reduce costs – Saltcoats offers accounting services at affordable rates which will lower your staff cost considerably, thereby, increasing profits.</li>
                     <br>
                     <li>Save time – Our team of professional handle all the hassles that come with accounting, payroll and admin services. This reduces your involvement in trivial day to day activities, thereby, allowing you to focus on your business expansion needs.</li>
                     <br>
@@ -64,7 +66,7 @@
         </div>
         <div id="collapsefour" class="collapse" aria-labelledby="4" data-parent="#accordion">
             <div class="card-body">
-                Outsourcing can be highly beneficial for small organisations and start-ups. Buchprufer offers a varied skill set like accounting/ data entry, review/managerial roles, tax knowledge, etc.) at a much lower cost.
+                Outsourcing can be highly beneficial for small organisations and start-ups. Saltcoats offers a varied skill set like accounting/ data entry, review/managerial roles, tax knowledge, etc.) at a much lower cost.
             </div>
         </div>
     </div>
@@ -130,7 +132,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="contact-form section-bg">
-                    <form id="contact" action="" method="post">
+                    <form id="contact" action="{{route('contactus.store')}}" method="post">
+                        @csrf
                         <div class="row">
                             <div class="col-md-6 col-sm-12">
                                 <fieldset>
@@ -142,9 +145,14 @@
                                     <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
                                 </fieldset>
                             </div>
-                            <div class="col-md-12 col-sm-12">
+                            <div class="col-md-6 col-sm-12">
                                 <fieldset>
                                     <input name="subject" type="text" id="subject" placeholder="Subject">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                    <input name="phone" type="text" id="phone" placeholder="Phone">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">

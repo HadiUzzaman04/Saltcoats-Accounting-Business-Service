@@ -113,7 +113,7 @@ body {
 
 .section-heading {
   text-align: center;
-  margin-top: 140px;
+  margin-top: 40px;
   margin-bottom: 80px;
 }
 
@@ -546,7 +546,7 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(35,45,57,0.8);
+    background-color: none ;
     top: 0;
     left: 0;
     bottom: 7px;
@@ -1472,12 +1472,3 @@ a:hover {
     }
   }
 
-  @media(min-width: 320px) and (max-width:425px){
-    .header-area{
-      display: flex;
-    }
-  }
-
-  /* .banner{
-    background-image: url('{{ asset('website/images/mainbanner.jpg') }}')
-  } */

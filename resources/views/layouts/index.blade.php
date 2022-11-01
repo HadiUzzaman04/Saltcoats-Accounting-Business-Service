@@ -10,7 +10,7 @@
 
     <div class="video-overlay header-text">
         <div class="caption">
-            <h2>Contact us</h2>
+            <h3>Looking for a perfect outsourcing partner? Contact Us.</h3>
             <div class="main-button">
                 <a href="{{route('contactus')}}">Contact Us</a>
             </div>
@@ -25,7 +25,7 @@
                 <div class="section-heading">
                     <h2>Our <em>Services</em></h2>
                     <img src="assets/images/line-dec.png" alt="">
-                    <p>Our experts at Buchprufer Consultants have been rendering auditing and accounting services to clients across the globe for years. With a systematic and well-defined approach, coupled with expert knowledge in the field, they ensure to offer quality and timely service delivery to the clients.</p>
+                    <p>Our experts at Saltcoats accounting & business service have been rendering auditing and accounting services to clients across the globe for years. With a systematic and well-defined approach, coupled with expert knowledge in the field, they ensure to offer quality and timely service delivery to the clients.</p>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
                     </div>
                     <div class="down-content">
                         <h4>Accounting Service</h4>
-                        <p>Buchprufer Consultants is a seasoned firm that specializes in accounting, bookkeeping and advisory services including HR & payroll management, taxation and virtual CFO services...</p>
+                        <p>Saltcoats accounting & business service is a seasoned firm that specializes in accounting, bookkeeping and advisory services including HR & payroll management, taxation and virtual CFO services...</p>
                         <ul class="main-button text-center">
                             <li><a href="{{route('accounting')}}">View More</a></li>
                         </ul>
@@ -76,29 +76,22 @@
     </div>
 </section>
 
-<section class="section section-bg" id="schedule" style="background-image: url(assets/images/about-fullscreen-1-1920x700.jpg)">
+<section class="section section-bg" id="call-to-action">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-                <div class="section-heading dark-bg">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="cta-content">
                     <h2>Read <em>About Us</em></h2>
-                    <img src="{{asset('website/images/line-dec.png')}}" alt="">
-                    <p>Get to know more about our company</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="cta-content text-center">
-                    <p>Buchprufer, established in the year 2007, is one of the leading accounts & audit offshore firms in India. We have been providing offshore services to numerous leading companies for more than a decade. Our team comprises of around 100 well-qualified experts who ensure top-notch, highly professional services in accounting, auditing, payroll, taxation, IT and HR solutions.</p>
-
-                    <p>Our main office is located at UL Cyber Park, Calicut, India. Our client network spreads across the globe building everlasting relationships based on trust and satisfaction. With our customized outsourcing solutions, Buchprufer has been at the forefront by serving leading companies with our technical expertise and advanced IT solutions. Specialized in auditing, accounting/ bookkeeping, payroll and taxation services, we cater to all your business requirements.</p>
+                    <p>Saltcoats accounting & business service, established few years ago, is one of the leading accounts & audit offshore firms in Canada. We have been providing offshore services to numerous leading companies for more than a decade. Our team comprises of around 100 well-qualified experts who ensure top-notch, highly professional services in accounting, auditing, payroll, taxation and HR solutions.</p>
+                    <div class="main-button">
+                        <a href="{{route('aboutus')}}">View More</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
+<br>
 <section class="section" id="trainers">
     <div class="container">
         <h4>Why Choose us?</h4>

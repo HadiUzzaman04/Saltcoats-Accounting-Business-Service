@@ -26,11 +26,12 @@
                          <h2>Quick Links</h2>
                          <div class="row">
                               <ul>
-                                   <li><a href="#"></i>Home</a></li>
-                                   <li><a href="#"></i>Services</a></li>
-                                   <li><a href="#"></i>Testimonial</a></li>
-                                   <li><a href="#"></i>About Us</a></li>
-                                   <li><a href="#"></i>Contact Us</a></li>
+                                   <li><a href="{{route('home')}}"></i>Home</a></li>
+                                   <li><a href="{{route('accounting')}}"></i>Accounting</a></li>
+                                   <li><a href="{{route('audit')}}"></i>Audit</a></li>
+                                   <li><a href="{{route('corporatetax')}}"></i>Tax</a></li>
+                                   <li><a href="{{route('aboutus')}}"></i>About Us</a></li>
+                                   <li><a href="{{route('contactus')}}"></i>Contact Us</a></li>
                               </ul>
                          </div>
                     </div>

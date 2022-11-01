@@ -41,9 +41,9 @@
             <div class="col-lg-12">
                 <section class='tabs-content'>
                     <article id='tabs-1'>
-                        <h4>Collaborate with Buchprufer Consultants to shape your dream into reality</h4>
+                        <h4>Collaborate with Saltcoats accounting & business service to shape your dream into reality</h4>
                         <p>Our pitch deck professionals have over a decade of expertise in the corporate environment and are ready to help you walk through your business path.</p>
-                        <p>Buchprufer's pitch deck design service ensures that you obtain a final product that you can confidently engage with investors, and it includes sessions with a squad of talented specialists.</p>
+                        <p>Saltcoats pitch deck design service ensures that you obtain a final product that you can confidently engage with investors, and it includes sessions with a squad of talented specialists.</p>
                         <h4>The following is a rundown of our Pitch Deck service:</h4>
                         <ul>
                         <li>1. Sessions with pitch deck consultant - Discuss your company's narrative and essential elements with the team of specialists.</li>

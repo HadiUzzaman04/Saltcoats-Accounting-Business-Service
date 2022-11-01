@@ -37,11 +37,11 @@
                 <section class='tabs-content'>
                     <article id='tabs-1'>
                         <h4>Professional Workforce for Effective Audit Services Canada</h4>
-                        <p>In order to raise the degree of confidence in a company’s financial statements, Buchprufer’s audit outsourcing services in Canada are at the forefront of helping firms navigate this shifting scenario. Our combination of highly qualified professional staff and a solid audit structure places our services at the top of the list when it comes to audit services in Canada.</p>
-                        <p>Audits are now more complicated. For an unbiased evaluation of your financial situation, Buchprufer’s audit squad integrates modern technology, a mindset of audit creativity, and business specialisation. We can provide a comprehensive audit that is specially crafted for your particular scenario since we have a thorough grasp of your market, and organisational structure.</p>
+                        <p>In order to raise the degree of confidence in a company's financial statements, Saltcoats accounting & business service audit outsourcing services in Canada are at the forefront of helping firms navigate this shifting scenario. Our combination of highly qualified professional staff and a solid audit structure places our services at the top of the list when it comes to audit services in Canada.</p>
+                        <p>Audits are now more complicated. For an unbiased evaluation of your financial situation, Saltcoats accounting & business service audit squad integrates modern technology, a mindset of audit creativity, and business specialisation. We can provide a comprehensive audit that is specially crafted for your particular scenario since we have a thorough grasp of your market, and organisational structure.</p>
                         <p>By putting together the appropriate interdisciplinary teams to handle the most difficult challenges, employing a tried-and-true worldwide audit process, and utilising the most recent, top-notch auditing tools and technology, we continue to deliver perfect audit services. Users reap from our industrial expertise as well as the most recent findings from our activities throughout the globe, since we recognize that customised services are just as important to achieving your goal as a systematic strategy.</p>
-                        <h4>“Buchprufer is known for its outstanding output and goal-oriented results”</h4>
-                        <p>Buchprufer sets priorities first by taking responsibilities and thinking outside the box in order to achieve the objectives. By putting management at the centre of all we do, we stand out, function better, and excel in our fields.</p>
+                        <h4>Saltcoats accounting & business service is known for its outstanding output and goal-oriented results”</h4>
+                        <p>Saltcoats accounting & business service sets priorities first by taking responsibilities and thinking outside the box in order to achieve the objectives. By putting management at the centre of all we do, we stand out, function better, and excel in our fields.</p>
                         <p>Since we are goal-oriented, we have the knowledge and experience in every area necessary to execute on our commitments. Our employees are always encouraged to set higher goals and complete tasks with more precision. The highest importance is placed on the happiness of our clients, which we try hard to accomplish in all facets of our business.</p>
                         <p>Our auditors give effective audit services and views that have more commercial value because of their technical expertise and familiarity with technology. Let us explain how our audit services in Canada frequently lead to the development of lasting customer engagement.</p>
                         
@@ -54,7 +54,7 @@
 
 <section class="section" id="trainers">
     <div class="container">
-        <h4>Buchprufer Audit solutions</h4>
+        <h4>Saltcoats Audit solutions</h4>
         <br>
         <div class="row">
             <div class="col-lg-6">
@@ -64,7 +64,7 @@
                     </div>
                     <div class="down-content">
                         <h4>External Audit</h4>
-                        <p>An independent examination of a company’s financial accounts to ascertain whether they provide a true and unbiased image is known as an external audit. Buchprufer assists businesses in optimizing the external audit process from strategy to implementation and closure.</p>
+                        <p>An independent examination of a company’s financial accounts to ascertain whether they provide a true and unbiased image is known as an external audit. Saltcoats assists businesses in optimizing the external audit process from strategy to implementation and closure.</p>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="down-content">
                         <h4>Risk Management</h4>
-                        <p>The risk management system from Buchprufer is excellent for identifying and resolving risks that are connected to the goals of your business. We can help you accomplish your corporate goals while upholding stakeholder confidence.</p>
+                        <p>The risk management system from Saltcoats is excellent for identifying and resolving risks that are connected to the goals of your business. We can help you accomplish your corporate goals while upholding stakeholder confidence.</p>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                     </div>
                     <div class="down-content">
                         <h4>Data Analytics</h4>
-                        <p>Data analytics is a technique for processing enormous volumes of data to produce findings for auditing needs. Data analytics tools have been used by auditors to methodically evaluate vast volumes of data. Buchprufer uses CaseWare IDEA and ACL (Audit Command Language) analytics software to meet the various audit demands.</p>
+                        <p>Data analytics is a technique for processing enormous volumes of data to produce findings for auditing needs. Data analytics tools have been used by auditors to methodically evaluate vast volumes of data. Saltcoats accounting & business service uses CaseWare IDEA and ACL (Audit Command Language) analytics software to meet the various audit demands.</p>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
             <div class="col-lg-12">
                 <section class='tabs-content'>
                     <article id='tabs-1'>
-                        <h4>Buchprufer Audit Services Canada</h4>
+                        <h4>Saltcoats Audit Services Canada</h4>
                         <p>With our adaptable and flexible audit services in Canada, we give dynamic enterprises the greatest insights for increased productivity and sounder decision-making.</p>
                         <ul>
                         <li>Skilled workforce: The highly qualified and experienced specialists (ACCA/CA/CMA/CPA) at Buchprufer can fulfil all of your needs and offer Canada audit outsourcing services.</li>

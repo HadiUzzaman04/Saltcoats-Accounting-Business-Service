@@ -23,7 +23,7 @@
                     <article id='tabs-1'>
                         <h4>Home Owners Association Audit</h4>
                         <p>Property ownership offers several advantages, but it is essential to properly manage and maintain your investment in order to get the most out of it. And it is here that the Home Owners Association (HOA) audit comes into effect. The Home Owner Association is a non-profit organization that manages the common areas of co-owned residences. According to Dubai law, every freehold property must have an owner’s association, which must include all of the property’s unit owners.</p>
-                        <p>At BUCHPRUFER CONSULTANTS, our team of specialists with over a decade of expertise offers HOA audit outsourcing services in a streamlined manner. Let’s take a look at the list of activities performed by the company to meet the business requirements of our clients.</p>
+                        <p>At Saltcoats accounting & business service, our team of specialists with over a decade of expertise offers HOA audit outsourcing services in a streamlined manner. Let’s take a look at the list of activities performed by the company to meet the business requirements of our clients.</p>
                         <ul>
                             <li>1. Import of trial balances based on service categories for reporting</li>
                             <li>2. Preparation of requirement list to the client</li>
@@ -35,7 +35,7 @@
                         </ul>
                         <br>
                         <p>We can effectively carry out full audits of homeowners’ associations with minimal to no input required from your end, saving your time and resource.</p>
-                        <p>When several title deed holders are present in Dubai, the Jointly Owned Property Law creates an Owners Association to manage the common areas of buildings or communities. The Dubai Home Owners Association is in charge of three key areas:</p>
+                        <p>When several title deed holders are present in Canada, the Jointly Owned Property Law creates an Owners Association to manage the common areas of buildings or communities. The Canadian Home Owners Association is in charge of three key areas:</p>
                         <ul>
                             <li>1. Management</li>
                             <li>2. Monitoring</li>

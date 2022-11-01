@@ -23,8 +23,8 @@
                     <article id='tabs-1'>
                         <img src="{{asset('website/images/about-image-1-940x460.jpg')}}" alt="">
                         <h4>About Our Company</h4>
-                        <p>Buchprufer, established in the year 2007, is one of the leading accounts & audit offshore firms in India. We have been providing offshore services to numerous leading companies for more than a decade. Our team comprises of around 100 well-qualified experts who ensure top-notch, highly professional services in accounting, auditing, payroll, taxation, IT and HR solutions.</p>
-                        <p>Our main office is located at UL Cyber Park, Calicut, India. Our client network spreads across the globe building everlasting relationships based on trust and satisfaction. With our customized outsourcing solutions, Buchprufer has been at the forefront by serving leading companies with our technical expertise and advanced IT solutions. Specialized in auditing, accounting/ bookkeeping, payroll and taxation services, we cater to all your business requirements.</p>
+                        <p>Saltcoats accounting & business service, established few years back and it is one of the leading accounts & audit offshore firms in Canada. We have been providing offshore services to numerous leading companies for more than a decade. Our team comprises of around 100 well-qualified experts who ensure top-notch, highly professional services in accounting, auditing, payroll, taxation, IT and HR solutions.</p>
+                        <p>Our main office is located at Saskatoon, Canada. Our client network spreads across the globe building everlasting relationships based on trust and satisfaction. With our customized outsourcing solutions, Buchprufer has been at the forefront by serving leading companies with our technical expertise and advanced IT solutions. Specialized in auditing, accounting/ bookkeeping, payroll and taxation services, we cater to all your business requirements.</p>
                     </article>
                 </section>
             </div>

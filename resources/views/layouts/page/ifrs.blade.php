@@ -24,7 +24,7 @@
                         <h4>IFRS Advisory Services</h4>
                         <p>International Financial Reporting Standards (IFRS) Advisory services play an essential role in global financial reporting as it brings transparency and comparability of financial information across the globe by ensuring a quality presentation.</p>
                         <p>The standards are being revised frequently to adopt business and economic changes to present valuable and relevant information to users, thereby bringing fundamental changes to accounting processes for financial statement preparers.</p>
-                        <p>Buchprufer helps business houses and financial statement preparers to understand the significant changes in the standards and educates them to implement them as per the requirements. We can assist you in managing this process by assessing the impact of these new accounting standards on your organisation, their implementation or revalidation.</p>
+                        <p>Saltcoats accounting & business service helps business houses and financial statement preparers to understand the significant changes in the standards and educates them to implement them as per the requirements. We can assist you in managing this process by assessing the impact of these new accounting standards on your organisation, their implementation or revalidation.</p>
                     </article>
                 </section>
             </div>
@@ -50,7 +50,7 @@
 
 <section class="section" id="trainers">
     <div class="container">
-        <h4>Buchprufer Audit solutions</h4>
+        <h4>Saltcoats Audit solutions</h4>
         <br>
         <div class="row">
             <div class="col-lg-3">
@@ -103,7 +103,7 @@
             <div class="col-lg-12">
                 <section class='tabs-content'>
                     <article id='tabs-1'>
-                        <h4>What Buchprufer offers!</h4>
+                        <h4>What Saltcoats accounting & business offers!</h4>
                         <ul>
                             <li>GAP analysis</li>
                             <li>IFRS adoption and implementation</li>

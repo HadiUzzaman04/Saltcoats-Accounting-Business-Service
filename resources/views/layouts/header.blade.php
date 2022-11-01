@@ -38,9 +38,9 @@
                         <li><a href="{{route('aboutus')}}">About Us</a></li>
                         <li><a href="{{route('contactus')}}">Contact Us</a></li>
                     </ul>
-                    <!-- <a class='menu-trigger'>
+                    <a class='menu-trigger'>
                         <span>Menu</span>
-                    </a> -->
+                    </a>
                     <!-- ***** Menu End ***** -->
                 </nav>
             </div>
