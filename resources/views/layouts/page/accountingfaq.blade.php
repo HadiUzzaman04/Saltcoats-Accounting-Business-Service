@@ -16,8 +16,8 @@
 </section>
 <br>
 <div id="accordion">
-<h4>Here are the fequently asked question about Accounting Service</h4>
-<br>
+    <h4>Here are the fequently asked question about Accounting Service</h4>
+    <br>
     <div class="card">
         <div class="card-header" id="1">
             <h5 class="mb-0">
@@ -28,7 +28,7 @@
         </div>
         <div id="collapseone" class="collapse" aria-labelledby="1" data-parent="#accordion">
             <div class="card-body">
-            Saltcoats accounting & business service has a highly professional team of qualified staff (CA/ ACCA/ CMA) to handle your books of accounts. We can handle the data entry, review and tax compliance of your books of accounts. Depending on the size of your organisation, in order to get a varied skill set (e.g. accounting, review, tax knowledge, etc.) you might have to employ many in-house resources. Outsourcing can get your job done at a much lower cost.
+                Saltcoats accounting & business service has a highly professional team of qualified staff (CA/ ACCA/ CMA) to handle your books of accounts. We can handle the data entry, review and tax compliance of your books of accounts. Depending on the size of your organisation, in order to get a varied skill set (e.g. accounting, review, tax knowledge, etc.) you might have to employ many in-house resources. Outsourcing can get your job done at a much lower cost.
             </div>
         </div>
     </div>

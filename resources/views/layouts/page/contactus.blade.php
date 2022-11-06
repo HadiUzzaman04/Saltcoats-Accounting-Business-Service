@@ -29,14 +29,14 @@
         <div class="icon">
           <i class="fa fa-phone"></i>
         </div>
-        <h5><a href="#">+1 333 4040 5566</a></h5>
+        <h5>+1 333 4040 5566</h5>
         <br>
       </div>
       <div class="col-md-4">
         <div class="icon">
           <i class="fa fa-envelope"></i>
         </div>
-        <h5><a href="#">contact@company.com</a></h5>
+        <h5>contact@company.com</h5>
         <br>
       </div>
       <div class="col-md-4">

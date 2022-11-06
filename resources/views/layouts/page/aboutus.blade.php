@@ -32,8 +32,6 @@
     </div>
 </section>
 
-
-
 <section class="section" id="trainers">
     <div class="container">
         <h4>Why Choose us?</h4>

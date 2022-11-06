@@ -132,7 +132,6 @@
                     This will depend on whether you are registered for VAT , He will owe VAT under the reverse charge mechanism, where business accounts for tax due under the reverse charge mechanism, and he can claim Input Tax Credit for this import.
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-header" id="8">
                     <h5 class="mb-0">
@@ -198,13 +197,13 @@
                 <div class="card-header" id="12">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsetwelve" aria-expanded="false" aria-controls="collapseThree">
-                        Can a Tourist get refund on the purchases made in UAE?
-                         </button>
+                            Can a Tourist get refund on the purchases made in UAE?
+                        </button>
                     </h5>
                 </div>
                 <div id="collapsetwelve" class="collapse" aria-labelledby="12" data-parent="#accordion">
                     <div class="card-body">
-                    Tourists can submit the required documents at the airport and make an application for refund of the tax. Tourists should do the following
+                        Tourists can submit the required documents at the airport and make an application for refund of the tax. Tourists should do the following
                         <ul>
                             <li>Request for tax invoice when you make the purchase</li>
                             <br>
@@ -217,52 +216,50 @@
             </div>
         </div>
         <br>
-
         <!-- ***** Contact Us Area Starts ***** -->
         <section class="section" id="contact-us" style="margin-top: 0">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="contact-form section-bg">
-                    <form id="contact" action="{{route('contactus.store')}}" method="post">
-                        @csrf
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <fieldset>
-                                    <input name="name" type="text" id="name" placeholder="Your Name*" required="">
-                                </fieldset>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <fieldset>
-                                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
-                                </fieldset>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <fieldset>
-                                    <input name="subject" type="text" id="subject" placeholder="Subject">
-                                </fieldset>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <fieldset>
-                                    <input name="phone" type="text" id="phone" placeholder="Phone">
-                                </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                                <fieldset>
-                                    <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
-                                </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                                <fieldset>
-                                    <button type="submit" id="form-submit" class="main-button">Send Message</button>
-                                </fieldset>
-                            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="contact-form section-bg">
+                            <form id="contact" action="{{route('contactus.store')}}" method="post">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <fieldset>
+                                            <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <fieldset>
+                                            <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <fieldset>
+                                            <input name="subject" type="text" id="subject" placeholder="Subject">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <fieldset>
+                                            <input name="phone" type="text" id="phone" placeholder="Phone">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="main-button">Send Message</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-        @endsection
+        </section>
+@endsection

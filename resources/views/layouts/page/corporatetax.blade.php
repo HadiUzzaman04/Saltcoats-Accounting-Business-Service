@@ -63,9 +63,6 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="trainer-item">
-                    <div class="image-thumb">
-                        <img src="assets/images/product-1-720x480.jpg" alt="">
-                    </div>
                     <div class="down-content">
                         <p>Salary or revenue obtained via employment for an individual. If an individual’s income is obtained through operations performed under a freelancing licence or permission, however, he or she will be liable for company tax.</p>
                     </div>
@@ -73,9 +70,6 @@
             </div>
             <div class="col-lg-6">
                 <div class="trainer-item">
-                    <div class="image-thumb">
-                        <img src="assets/images/product-3-720x480.jpg" alt="">
-                    </div>
                     <div class="down-content">
                         <p>By mitigating any tax bottlenecks, a competent taxation service will help you to achieve your VAT compliance in canada duties while also lowering your tax rate. As a result, the company's tax “health” improves as the risk of further taxes and penalties are reduced..</p>
                     </div>
@@ -83,9 +77,6 @@
             </div>
             <div class="col-lg-6">
                 <div class="trainer-item">
-                    <div class="image-thumb">
-                        <img src="assets/images/product-2-720x480.jpg" alt="">
-                    </div>
                     <div class="down-content">
                         <p>Individuals can invest in real estate in their personal capacity if they do not need a business licence or licence to do so in the Canada.</p>
                     </div>
@@ -93,9 +84,6 @@
             </div>
             <div class="col-lg-6">
                 <div class="trainer-item">
-                    <div class="image-thumb">
-                        <img src="assets/images/product-4-720x480.jpg" alt="">
-                    </div>
                     <div class="down-content">
                         <p>Dividends, capital gains, and other income derived through personal ownership of stocks and other assets.</p>
                     </div>
@@ -103,9 +91,6 @@
             </div>
             <div class="col-lg-6">
                 <div class="trainer-item">
-                    <div class="image-thumb">
-                        <img src="assets/images/product-5-720x480.jpg" alt="">
-                    </div>
                     <div class="down-content">
                         <p>Individuals gain interest and other revenue through bank accounts and savings plans.</p>
                     </div>
@@ -142,8 +127,7 @@
                     <article id='tabs-1'>
                         <h4>Conclusion</h4>
                         <p>The new approach, which is set to go into force next year, aims to increase Canada reputation as a worldwide business and investment hub while also meeting international tax integrity criteria and preventing illicit and fraudulent practices.</p>
-                        <p>This declaration allows businesses in  about a year and a half to gear up for taxes, and it will be fascinating to see how companies in the Canada implement various strategies to ensure adherence to the projected new international tax rules while also making sure the Canada remains a desirable area for businesses to function.</p>
-
+                        <p>This declaration allows businesses in about a year and a half to gear up for taxes, and it will be fascinating to see how companies in the Canada implement various strategies to ensure adherence to the projected new international tax rules while also making sure the Canada remains a desirable area for businesses to function.</p>
                     </article>
                 </section>
             </div>

@@ -22,7 +22,7 @@
                 <section class='tabs-content'>
                     <article id='tabs-1'>
                         <h4>VAT Consultancy Services</h4>
-                        <p>Federal Tax Authority of Canada was set up in Canada in the year 2016 and is the government entity responsible for the administration, collection, and enforcement of federal taxes. It was established in 2016 by the President of  Canada, via Federal Decree-Law 13 of 2016.</p>
+                        <p>Federal Tax Authority of Canada was set up in Canada in the year 2016 and is the government entity responsible for the administration, collection, and enforcement of federal taxes. It was established in 2016 by the President of Canada, via Federal Decree-Law 13 of 2016.</p>
                         <p>Taxation started in Canada as a part of the GCC wide initiative to diversify regional economies. The introduction of VAT and Excise taxes will help the Canada diversify sources of revenue so that government departments can continue to deliver excellent public services and ensure a high quality of life for coming generations.</p>
                         <br>
                         <h3>What is VAT?</h3>
@@ -50,7 +50,6 @@
     </div>
 </section>
 
-
 <section class="section" id="our-classes">
     <div class="container">
         <div class="row" id="tabs">
@@ -73,6 +72,5 @@
         </div>
     </div>
 </section>
-
 
 @endsection

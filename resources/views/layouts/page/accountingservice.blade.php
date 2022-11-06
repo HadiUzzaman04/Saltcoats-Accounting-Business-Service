@@ -69,7 +69,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
@@ -149,11 +148,11 @@
                         <h4>Benefits of Accounting Services in Canada</h4>
                         <p>Accounting has established itself as a significant and vital function in the establishment of sound financial management for businesses. Businesses can considerably improve their probability of victory by utilizing accounting services from expert firms. Let's look at some of the benefits of accounting services.</p>
                         <ul>
-                        <li>Strengthen the ease with which a company can expand.</li>
-                        <li>Ensure that all legislative and regulatory obligations are met.</li>
-                        <li>Enhances the stability of your financial system.</li>
-                        <li>Awareness of the most recent accounting, tax, and IFRS framework advancements.</li>
-                        <li>Client satisfaction is ensured through quality assurance and one-on-one service.</li>
+                            <li>Strengthen the ease with which a company can expand.</li>
+                            <li>Ensure that all legislative and regulatory obligations are met.</li>
+                            <li>Enhances the stability of your financial system.</li>
+                            <li>Awareness of the most recent accounting, tax, and IFRS framework advancements.</li>
+                            <li>Client satisfaction is ensured through quality assurance and one-on-one service.</li>
                         </ul>
                     </article>
                 </section>

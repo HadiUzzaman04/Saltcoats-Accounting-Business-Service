@@ -44,7 +44,7 @@
                         <p>Saltcoats accounting & business service sets priorities first by taking responsibilities and thinking outside the box in order to achieve the objectives. By putting management at the centre of all we do, we stand out, function better, and excel in our fields.</p>
                         <p>Since we are goal-oriented, we have the knowledge and experience in every area necessary to execute on our commitments. Our employees are always encouraged to set higher goals and complete tasks with more precision. The highest importance is placed on the happiness of our clients, which we try hard to accomplish in all facets of our business.</p>
                         <p>Our auditors give effective audit services and views that have more commercial value because of their technical expertise and familiarity with technology. Let us explain how our audit services in Canada frequently lead to the development of lasting customer engagement.</p>
-                        
+
                     </article>
                 </section>
             </div>
@@ -114,12 +114,12 @@
                         <h4>Saltcoats Audit Services Canada</h4>
                         <p>With our adaptable and flexible audit services in Canada, we give dynamic enterprises the greatest insights for increased productivity and sounder decision-making.</p>
                         <ul>
-                        <li>Skilled workforce: The highly qualified and experienced specialists (ACCA/CA/CMA/CPA) at Buchprufer can fulfil all of your needs and offer Canada audit outsourcing services.</li>
-                        <li>Execution in real time: Due to our considerable expertise in working with strong organizational cultures, we are able to carry out external audits quickly and with minimum disruption to your operations.</li>
-                        <li>Adopting practical approach: Our staff is provided with cutting-edge tools and technology to ensure a thorough and quick audit procedure.</li>
-                        <li>Cost-effective pricing: Our carefully created service concept includes highly skilled individuals who use cutting-edge methods to offer audit services Canada at affordable prices.</li>
-                        <li>Follow international regulations: You can optimize your audit procedure by using our efficient auditing services that adhere to international standards.</li>
-                        <li>Data Protection: We provide thorough data security that adheres to regulatory requirements and commercial best practices, lowering the possibility of cyber-attacks and data theft.</li>
+                            <li>Skilled workforce: The highly qualified and experienced specialists (ACCA/CA/CMA/CPA) at Buchprufer can fulfil all of your needs and offer Canada audit outsourcing services.</li>
+                            <li>Execution in real time: Due to our considerable expertise in working with strong organizational cultures, we are able to carry out external audits quickly and with minimum disruption to your operations.</li>
+                            <li>Adopting practical approach: Our staff is provided with cutting-edge tools and technology to ensure a thorough and quick audit procedure.</li>
+                            <li>Cost-effective pricing: Our carefully created service concept includes highly skilled individuals who use cutting-edge methods to offer audit services Canada at affordable prices.</li>
+                            <li>Follow international regulations: You can optimize your audit procedure by using our efficient auditing services that adhere to international standards.</li>
+                            <li>Data Protection: We provide thorough data security that adheres to regulatory requirements and commercial best practices, lowering the possibility of cyber-attacks and data theft.</li>
                         </ul>
                     </article>
                 </section>

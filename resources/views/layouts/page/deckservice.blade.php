@@ -46,10 +46,10 @@
                         <p>Saltcoats pitch deck design service ensures that you obtain a final product that you can confidently engage with investors, and it includes sessions with a squad of talented specialists.</p>
                         <h4>The following is a rundown of our Pitch Deck service:</h4>
                         <ul>
-                        <li>1. Sessions with pitch deck consultant - Discuss your company's narrative and essential elements with the team of specialists.</li>
-                        <li>2. Creating your pitch story - Based on prior interactions, a consultant will come up with suggestions for how to successfully showcase your business.</li>
-                        <li>3. Design Layout - From there, the design team will build stunning, aesthetically effective presentations.</li>
-                        <li>4. Delivery with Final Edits - Once you've received the customizable file, you can ask the team to make any additional modifications.</li>
+                            <li>1. Sessions with pitch deck consultant - Discuss your company's narrative and essential elements with the team of specialists.</li>
+                            <li>2. Creating your pitch story - Based on prior interactions, a consultant will come up with suggestions for how to successfully showcase your business.</li>
+                            <li>3. Design Layout - From there, the design team will build stunning, aesthetically effective presentations.</li>
+                            <li>4. Delivery with Final Edits - Once you've received the customizable file, you can ask the team to make any additional modifications.</li>
                         </ul>
                     </article>
                 </section>
@@ -65,11 +65,8 @@
                 <section class='tabs-content'>
                     <article id='tabs-1'>
                         <h4>Pitch Decks for Startups and Entrepreneurs</h4>
-
                         <p>Pitch decks are one of the most important tools a startup or entrepreneur can have. They help you communicate your business idea, what you’re doing, and why it matters to potential customers. They also help you sell yourself and your product.</p>
-
                         <p>When it comes to pitching your business, there are a few things that you should keep in mind. For pitch deck startups and entrepreneurs, always have a pitch deck ready to go. This document will succinctly summarize your business, show off your product or service, and highlight your competitive advantages. It will also be useful in persuading a potential investor or client.</p>
-
                         <p>Pitch decks are a great way to communicate your business idea and elevator pitch to potential investors or customers. There are many different types of pitch deck design services, but the most important part is to make sure that you present your idea in a clear, concise, and memorable way with the help of a pitch deck consultant. Explore your options and choose the best look for you.</p>
                     </article>
                 </section>
@@ -77,7 +74,4 @@
         </div>
     </div>
 </section>
-
-
-
 @endsection

@@ -2,12 +2,7 @@
 @section('content')
 
 <div class="main-banner" id="top">
-    <!-- <video autoplay muted loop id="bg-video">
-        <source src="assets/images/video.mp4" type="video/mp4" />
-    </video> -->
-
     <img src="{{url('website/images/mainbanner.jpg')}}" style="width: 100%; object-fit:cover; height:100%;" />
-
     <div class="video-overlay header-text">
         <div class="caption">
             <h3>Looking for a perfect outsourcing partner? Contact Us.</h3>
@@ -200,7 +195,7 @@
                         </div>
                         <div class="right-content">
                             <h4>Jed Carey</h4>
-                            <p><em>"We needed someone with a high level of skill,  accuracy and dependability and Darcy bookkeeping really delivered."</em></p>
+                            <p><em>"We needed someone with a high level of skill, accuracy and dependability and Darcy bookkeeping really delivered."</em></p>
                         </div>
                     </li>
                 </ul>
