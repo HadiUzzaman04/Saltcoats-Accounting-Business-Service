@@ -8,7 +8,7 @@
         <div class="cta-content">
           <br>
           <br>
-          <h2>Feel free to Contact Us</h2>
+          <h2>Contact Us</h2>
         </div>
       </div>
     </div>
