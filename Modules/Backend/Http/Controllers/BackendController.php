@@ -13,12 +13,11 @@ class BackendController extends BaseController
    public function contactus()
    {
       $data = Contact::all();
-        return view('backend::layouts.contactus', compact('data'));
+      return view('backend::layouts.contactus', compact('data'));
    }
    public function delete($id)
    {
-       $data = Contact::find($id);
-       $data->delete();
+       $data = Contact::find($id)->delete();
        return redirect()->back();
    }
 }

@@ -24,8 +24,7 @@ class ContactinfoController extends BaseController
     }
     public function delete($id)
     {
-        $data = Footer::find($id);
-        $data->delete();
+        $data = Footer::find($id)->delete();
         return redirect()->back();
     }
     public function editcontactinfo($id)
