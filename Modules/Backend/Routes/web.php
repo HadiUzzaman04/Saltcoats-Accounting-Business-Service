@@ -32,4 +32,25 @@ Route::prefix('admin')->group(function() {
     Route::get('/service/edit/{id}','ServiceController@edit')->name('service.edit');
     Route::put('/service/update/{id}','ServiceController@update')->name('service.update');
     Route::get('/service/view/{id}','ServiceController@view')->name('service.view');
+
+    //accounting faq
+    Route::get('/accountingFAQ','AccountingController@accountingfaq')->name('accounting.faq');
+    Route::post('/accountingfaq/store','AccountingController@create')->name('accountingfaq.store');
+    Route::get('/accountingfaq/delete/{id}','AccountingController@delete')->name('accountingfaq.delete');
+    Route::get('/accountingfaq/edit/{id}','AccountingController@edit')->name('accountingfaq.edit');
+    Route::put('/accountingfaq/update/{id}','AccountingController@update')->name('accountingfaq.update');
+
+    //audit faq
+    Route::get('/auditFAQ','AuditController@auditfaq')->name('audit.faq');
+    Route::post('/auditfaq/store','AuditController@create')->name('auditfaq.store');
+    Route::get('/auditfaq/delete/{id}','AuditController@delete')->name('auditfaq.delete');
+    Route::get('/auditfaq/edit/{id}','AuditController@edit')->name('auditfaq.edit');
+    Route::put('/auditfaq/update/{id}','AuditController@update')->name('auditfaq.update');
+
+    //tax faq
+    Route::get('/taxFAQ','TaxController@taxfaq')->name('tax.faq');
+    Route::post('/taxfaq/store','TaxController@create')->name('taxfaq.store');
+    Route::get('/taxfaq/delete/{id}','TaxController@delete')->name('taxfaq.delete');
+    Route::get('/taxfaq/edit/{id}','TaxController@edit')->name('taxfaq.edit');
+    Route::put('/taxfaq/update/{id}','TaxController@update')->name('taxfaq.update');
 });
